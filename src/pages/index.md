@@ -1,13 +1,13 @@
 ---
 templateKey: index-page
-title: 'Oberoende radio - '
+title: Oberoende radio
 image: /img/gottsnack3.jpg
 heading: Live vardagar 07-09
-subheading: Och daglig podcast.
+subheading: Live vardagar 07-09
 mainpitch:
-  title: Detta är Gott Snack
+  title: Välkommen in i värmen
   description: |
-    Hej hej hej
+    Direkt från stockholm, rakt ut i rymden. 
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
