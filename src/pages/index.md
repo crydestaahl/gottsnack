@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 'Gott snack '
-image: /img/gottsnack2.jpg
-heading: Gott snack - radio
-subheading: Oberoende radio
+title: 'Oberoende radio - '
+image: /img/gott-snack.png
+heading: Live vardagar 07-09
+subheading: Och daglig podcast.
 mainpitch:
   title: Detta är Gott Snack
   description: |
