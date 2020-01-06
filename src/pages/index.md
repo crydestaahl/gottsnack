@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 'Oberoende radio - '
-image: /img/gott-snack.png
+image: /img/gottsnack3.jpg
 heading: Live vardagar 07-09
 subheading: Och daglig podcast.
 mainpitch:
