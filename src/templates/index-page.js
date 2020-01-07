@@ -66,20 +66,23 @@ export const IndexPageTemplate = ({
                </h3>
              </div>
            </div>
-
+           <div className="container">
+             <div className="section section1">
+               <div className="column is-12 has-text-centered">
+                 <a
+                   className="btn live-btn"
+                   href="http://mixlr.com/gott-snack/"
+                   target="_blank"
+                 >
+                   Lyssna live!
+                 </a>
+               </div>
+             </div>
+           </div>
            <section className="section section--gradient">
              <div className="container">
                <div className="section">
                  <div className="columns">
-                     <div className="column is-12 has-text-centered">
-                       <a
-                         className="btn live-btn"
-                         href="http://mixlr.com/gott-snack/"
-                         target="_blank"                         
-                       >
-                         Lyssna live!
-                       </a>
-                   </div>
                    <div className="column is-10 is-offset-1">
                      <div className="content">
                        <div className="content">
@@ -100,7 +103,7 @@ export const IndexPageTemplate = ({
                        </div>
                        {/*}                
                 <Features gridItems={intro.blurbs} />
-        */}
+        
 
                        <div className="column is-12">
                          <h3 className="has-text-weight-semibold is-size-2">
@@ -113,6 +116,7 @@ export const IndexPageTemplate = ({
                            </Link>
                          </div>
                        </div>
+                       */}
                      </div>
                    </div>
                  </div>
