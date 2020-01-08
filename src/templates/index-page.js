@@ -100,6 +100,15 @@ export const IndexPageTemplate = ({
                            </h3>
                            <p>{description}</p>
                          </div>
+                         <div className="column is-12 has-text-centered">
+                           <a
+                             className="btn live-btn"
+                             href="https://www.patreon.com/gottsnack"
+                             target="_blank"
+                           >
+                             Stötta oss på Patreon!
+                           </a>
+                         </div>
                        </div>
                        {/*}                
                 <Features gridItems={intro.blurbs} />

@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-kaldi has-margin-padding-kaldi">
           <img
             src={logo}
-            alt="Kaldi"
+            alt="GottSnack"
             style={{ width: "18em", height: "3em" }}
           />
         </div>
@@ -87,6 +87,7 @@ const Footer = class extends React.Component {
                     src={facebook}
                     alt="Facebook"
                     style={{ width: "1em", height: "1em" }}
+                    target="_blank"
                   />
                 </a>
                 <a title="twitter" href="https://twitter.com">
@@ -95,6 +96,7 @@ const Footer = class extends React.Component {
                     src={twitter}
                     alt="Twitter"
                     style={{ width: "1em", height: "1em" }}
+                    target="_blank"
                   />
                 </a>
                 <a
@@ -105,6 +107,7 @@ const Footer = class extends React.Component {
                     src={instagram}
                     alt="Instagram"
                     style={{ width: "1em", height: "1em" }}
+                    target="_blank"
                   />
                 </a>
                 {/*

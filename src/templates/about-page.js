@@ -9,28 +9,40 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent }) =
 
   return (
     <div>
-    {/*}
       <div
-        className="full-width-image-container margin-top-0"
+        className="full-width-image-container margin-top-0 about-height"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`
         }}
       >
-        <h2
-          className="has-text-weight-bold is-size-1"
+        <div
           style={{
-            boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-            backgroundColor: "#f40",
-            color: "white",
-            padding: "1rem"
+            display: "flex",
+            height: "150px",
+            lineHeight: "1",
+            justifyContent: "space-around",
+            alignItems: "left",
+            flexDirection: "column"
           }}
         >
-          {title}
-        </h2>
+          <h2
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              boxShadow:
+                "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+              backgroundColor: "rgb(255, 68, 0)",
+              color: "white",
+              lineHeight: "1",
+              padding: "0.25em"
+            }}
+          >
+            {title}
+          </h2>
+        </div>
       </div>
-        */}
+
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
@@ -63,11 +75,12 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
+        image={post.frontmatter.image}
         title={post.frontmatter.title}
         content={post.html}
       />
     </Layout>
-  )
+  );
 }
 
 AboutPage.propTypes = {
@@ -84,7 +97,7 @@ export const aboutPageQuery = graphql`
                title
                image {
                  childImageSharp {
-                   fluid(maxWidth: 1127, quality: 100) {
+                   fluid(maxWidth: 900, maxHeight: 500 quality: 100) {
                      ...GatsbyImageSharpFluid
                    }
                  }
