@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gott Snack',
+    title: 'Gott Snack - Gränslös Morgonradio',
     description:
       'Gott snack - oberoende radio live varje vardag kl 07 - 09',
   },
