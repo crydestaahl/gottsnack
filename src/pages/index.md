@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Oberoende radio
-image: /img/gottsnack-mobile.jpg
+image: /img/gottsnack3-desktop.jpg
 heading: Live vardagar 07-09
 subheading: Live vardagar 07-09
 mainpitch:
