@@ -93,6 +93,7 @@ export const IndexPageTemplate = ({
                            <h3 className="subtitle">{mainpitch.description}</h3>
                          </div>
                        </div>
+
                        <div className="columns">
                          <div className="column is-12">
                            <h3 className="has-text-weight-semibold is-size-3">
@@ -100,6 +101,9 @@ export const IndexPageTemplate = ({
                            </h3>
                            <p>{description}</p>
                          </div>
+                       </div>
+                       <div className="container">
+                       <div className="section section1">
                          <div className="column is-12 has-text-centered">
                            <a
                              className="btn live-btn"
@@ -110,6 +114,7 @@ export const IndexPageTemplate = ({
                            </a>
                          </div>
                        </div>
+                     </div>
                        {/*}                
                 <Features gridItems={intro.blurbs} />
         
