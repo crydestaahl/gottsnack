@@ -21,10 +21,10 @@ export const IndexPageTemplate = ({
              style={{
                backgroundImage: `url(${
                  !!image.childImageSharp
-                   ? image.childImageSharp.fluid.src
+                   ? image.childImageSharp.fixed.src
                    : image
                })`,
-               backgroundPosition: `top left`,
+               
                backgroundAttachment: `fixed`
              }}
            >
@@ -64,20 +64,16 @@ export const IndexPageTemplate = ({
                >
                  {subheading}
                </h3>
-             </div>
+               <div className="container">
+                <div className="section section1">
+                  <div className="column is-12 has-text-centered">
+                  </div>
+                </div>
+              </div>
+             </div>             
            </div>
            <div className="container">
-             <div className="section section1">
-               <div className="column is-12 has-text-centered">
-                 <a
-                   className="btn live-btn"
-                   href="http://mixlr.com/gott-snack/"
-                   target="_blank"
-                 >
-                   Lyssna live!
-                 </a>
-               </div>
-             </div>
+           <iframe src="https://mixlr.com/users/7034928/embed?color=f38e00&autoplay=true" width="100%" height="180px" scrolling="no" frameborder="no" marginheight="0" marginwidth="0"></iframe><small><a href="http://mixlr.com/gott-snack" style={{color:'#1a1a1a', textAlign:'left', fontFamily:'Helvetica, sans-serif', fontSize:'11px' }}></a></small>
            </div>
            <section className="section section--gradient">
              <div className="container">
@@ -93,7 +89,6 @@ export const IndexPageTemplate = ({
                            <h3 className="subtitle">{mainpitch.description}</h3>
                          </div>
                        </div>
-
                        <div className="columns">
                          <div className="column is-12">
                            <h3 className="has-text-weight-semibold is-size-3">
@@ -112,13 +107,11 @@ export const IndexPageTemplate = ({
                            >
                              Stötta oss på Patreon!
                            </a>
-                         </div>
+                         </div>                        
                        </div>
                      </div>
                        {/*}                
-                <Features gridItems={intro.blurbs} />
-        
-
+                       <Features gridItems={intro.blurbs} />
                        <div className="column is-12">
                          <h3 className="has-text-weight-semibold is-size-2">
                            Latest stories
@@ -187,8 +180,8 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+            fixed(width: 1075, height: 800, quality: 100) {
+              ...GatsbyImageSharpFixed
             }
           }
         }

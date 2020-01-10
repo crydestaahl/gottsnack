@@ -53,8 +53,9 @@ $section-padding-medium: 3rem 1.5rem
 .full-width-image
   width: 100vw
   height: 512px
-  background-size: cover
-  background-position: bottom
+  background-size: 159%
+  background-position: left
+  background-repeat: no-repeat
   display: flex
   justify-content: center
   align-items: center
@@ -148,10 +149,8 @@ $menu-label-color: $white-ter
 // responsiveness
 +desktop
   .full-width-image
-    height: 812px
-//  .test
-//    position: fixed !important
-//    right: 20% !important
+    height: 712px
+    background-position: 182%
 
 +tablet-only
   .blog-list-item .featured-thumbnail
