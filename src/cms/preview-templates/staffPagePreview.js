@@ -4,9 +4,9 @@ import { staffPageTemplate } from '../../templates/staff'
 
 const staffPagePreview = ({ entry, widgetFor }) => (
     <staffPageTemplate
-        title={entry.getIn(["data", "title"])}
+        title={entry.getIn(["data", "name"])}
         image={entry.getIn(["data", "image"])}
-        content={widgetFor("body")}
+        content={widgetFor("presentation")}
     />
 );
 
