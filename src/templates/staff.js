@@ -21,7 +21,7 @@ export const staffPageTemplate = ({ image, title, content, contentComponent }) =
                     style={{
                         display: "flex",
                         height: "150px",
-                        lineHeight: "1",
+                        
                         justifyContent: "space-around",
                         alignItems: "left",
                         flexDirection: "column"
