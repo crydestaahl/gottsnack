@@ -5,7 +5,7 @@ image: /img/teamgottsnack.jpg
 ---
 **Bakgrund**
 
-Jag (Fredrik Söderholm) kände att jag ville göra morgonradio på mitt sätt. Utan tråkiga chefer som sätter stopp för ens kreativitet och experimentlusta. Sagt och gjort. En kickstarter senare och med lite hjälp från Nöjesguiden var vi igång.   
+Jag (Fredrik Söderholm) kände att jag ville göra morgonradio på mitt sätt. Utan tråkiga chefer som sätter stopp för  kreativitet och experimentlusta. Sagt och gjort. En kickstarter senare och med lite hjälp från Nöjesguiden var vi igång.   
 
 **Ambition** 
 
