@@ -9,10 +9,10 @@ mainpitch:
   description: |
     Direkt från stockholm, rakt ut i rymden. 
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Fredrik Söderholm med vänner och familj uttolkar det vi ibland väljer att lite
+  svepande kalla för samtiden i Sveriges enda uthärdliga morgonradioprogram. 
+  Lyssna live vardagar 07-09 på www.gottsnack.nu och stöd oss på
+  https://www.patreon.com/gottsnack
 intro:
   blurbs:
     - image: /img/coffee.png
