@@ -55,7 +55,7 @@ staffPageTemplate.propTypes = {
     contentComponent: PropTypes.func
 };
 
-const AboutPage = ({ data }) => {
+const staffPage = ({ data }) => {
     const { markdownRemark: post } = data
 
     return (
