@@ -22,7 +22,7 @@ export default class StaffIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Latest Stories
+            Detta är Gott Snack! 
           </h1>
         </div>
         <section className="section">
