@@ -1,20 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { staffPageTemplate } from '../../templates/staff'
+import { StaffPostTemplate } from '../../templates/staff-post'
 
-const staffPagePreview = ({ entry, widgetFor }) => (
-  <staffPageTemplate
-    title={entry.getIn(["data", "title"])}
-    image={entry.getIn(["data", "image"])}
-    content={widgetFor("body")}
-  />
-);
-
-staffPagePreview.propTypes = {
-    entry: PropTypes.shape({
-        getIn: PropTypes.func,
-    }),
-    widgetFor: PropTypes.func,
+const StaffPostPreview = ({ entry, widgetFor }) => {
+  const tags = entry.getIn(['data', 'tags'])
+  return (
+    <StaffPostTemplate
+      content={widgetFor('body')}
+      description={entry.getIn(['data', 'description'])}
+      tags={tags && tags.toJS()}
+      title={entry.getIn(['data', 'title'])}
+    />
+  )
 }
 
-export default staffPagePreview
+StaffPostPreview.propTypes = {
+  entry: PropTypes.shape({
+    getIn: PropTypes.func,
+  }),
+  widgetFor: PropTypes.func,
+}
+
+export default StaffPostPreview

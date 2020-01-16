@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Features from '../components/Features'
+import StaffRoll from '../components/StaffRoll'
 
-export const AboutPageTemplate = ({ image, title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ image, title, content, contentComponent, intro }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -48,13 +50,27 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent }) =
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="section">
+              <div className="column is-12">
+              <h3 className="has-text-weight-semibold is-size-2">
+                Vilka är vi? 
+              </h3>
+              <StaffRoll />
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/staff">
+                  Read more
+                </Link>
+              </div>
+            </div>
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />
               </div>
             </div>
+            
           </div>
+          
+      
         </div>
       </section>
     </div>

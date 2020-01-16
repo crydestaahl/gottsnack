@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 import logo from '../img/gott-snack2.png'
 
 const Navbar = class extends React.Component {
@@ -69,11 +68,11 @@ const Navbar = class extends React.Component {
               >
                 Poddar
               </a>
-              {/*
-              <Link className="navbar-item" to="/blog">
-                Blog
+    {/*          
+              <Link className="navbar-item" to="/staff">
+                Staff
               </Link>
-*/}
+    */}
               <Link className="navbar-item" to="/contact">
                 Kontakt
               </Link>
