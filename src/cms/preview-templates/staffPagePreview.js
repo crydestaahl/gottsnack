@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import { staffPageTemplate } from '../../templates/staff'
 
 const staffPagePreview = ({ entry, widgetFor }) => (
-    <staffPageTemplate
-        title={entry.getIn(["data", "name"])}
-        image={entry.getIn(["data", "image"])}
-        content={widgetFor("presentation")}
-    />
+  <staffPageTemplate
+    title={entry.getIn(["data", "title"])}
+    image={entry.getIn(["data", "image"])}
+    content={widgetFor("body")}
+  />
 );
 
 staffPagePreview.propTypes = {

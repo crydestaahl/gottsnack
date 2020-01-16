@@ -24,8 +24,6 @@ export const IndexPageTemplate = ({
                    ? image.childImageSharp.fixed.src
                    : image
                })`,
-               
-               
              }}
            >
              <div

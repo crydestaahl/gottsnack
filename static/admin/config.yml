@@ -35,8 +35,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "staff"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Name", name: "name", widget: "string"}      
-      - {label: "Presentation", name: "presentation", widget: "text"}            
+      - {label: "Name", name: "title", widget: "string"}      
+      - {label: "Description", name: "description", widget: "text"}        
 
   - name: "pages"
     label: "Pages"
@@ -49,7 +49,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
-          - {label: Today's guest, name: today's guest, widget: string}
+          - {label: Today's guest, name: todays_guest, widget: string}
           - {label: Subheading, name: subheading, widget: string}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Description, name: description, widget: string}
