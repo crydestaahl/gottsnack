@@ -9,7 +9,7 @@ tags:
   - radio
   - founder
 ---
-![alex bw](/img/fredrik-bw.jpg)
+![alex bw](/img/alex-bw.jpg)
 
 DUSCHDRAPERI-ENTREPRENÖR, ÖL-LANGARE OCH FÖRESPRÅKARE AV RÄTTSSÄKERHET.
 
