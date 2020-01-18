@@ -2,7 +2,7 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #f38e22
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -73,12 +73,13 @@ $section-padding-medium: 3rem 1.5rem
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $kaldi-red
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    // -webkit-box-shadow: inset 0 0 0 2px #CC3700
+    // box-shadow: inset 0 0 0 2px #f40
     -webkit-transition: all .15s ease
-    transition: all .15s ease
+    transition: all .15s ease   
+    border: none 
 
 .live-btn 
     background: $kaldi-red
@@ -89,6 +90,10 @@ $section-padding-medium: 3rem 1.5rem
 
 .navbar-item .icon
   color: $primary
+
+.navbar-item:hover 
+  color: $primary !important
+
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -108,7 +113,7 @@ footer.footer
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
+$menu-item-active-color: $kaldi-red 
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter

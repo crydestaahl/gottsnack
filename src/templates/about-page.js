@@ -16,7 +16,7 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`
+          })`          
         }}
       >
         <div
@@ -33,18 +33,17 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               boxShadow:
-                "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-              backgroundColor: "rgb(255, 68, 0)",
+                     "rgb(243,142,34) 0.5rem 0px 0px, rgb(243,142,34) -0.5rem 0px 0px",
+                   backgroundColor: "rgb(243,142,34)",
               color: "white",
               lineHeight: "1",
-              padding: "0.25em"
+              padding: "0.25em",              
             }}
           >
             {title}
           </h2>
         </div>
       </div>
-
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
@@ -113,7 +112,7 @@ export const aboutPageQuery = graphql`
                title
                image {
                  childImageSharp {
-                   fluid(maxWidth: 900, maxHeight: 500 quality: 100) {
+                   fluid(maxWidth: 900, maxHeight: 500, quality: 100) {
                      ...GatsbyImageSharpFluid
                    }
                  }
