@@ -1,6 +1,6 @@
 ---
 templateKey: staff-post
-title: 'GUNILLA SÖDERHOLM '
+title: Gunilla Söderholm
 date: 2020-01-20T19:26:36.655Z
 description: .
 featuredpost: true
