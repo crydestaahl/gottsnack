@@ -67,7 +67,7 @@ const Navbar = class extends React.Component {
               </Link>
               <a
                 className="navbar-item"
-                href="https://www.radioplay.se/podcast" target="_blank"
+                href="https://pod.space/gottsnack" target="_blank"
               >
                 Poddar
               </a>

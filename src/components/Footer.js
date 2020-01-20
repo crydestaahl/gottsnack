@@ -122,6 +122,11 @@ const Footer = class extends React.Component {
               </div>
             </div>
           </div>
+          <p
+            style={{padding: '2em'}}  
+          >
+          &#169; Gott Snack 2020 - Byggt med GatsbyJs av Christoffer Rydeståhl 
+          </p>
         </div>
       </footer>
     );

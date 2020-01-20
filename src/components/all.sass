@@ -62,8 +62,11 @@ $section-padding-medium: 3rem 1.5rem
   justify-content: center
   align-items: center
 
-.about-height
-  height: 596px  
+.about-page-img
+  height: 209px;
+  margin: 1em -50vw;
+  background-repeat: no-repeat
+  background-position: center
 
 .btn
     display: inline-block
@@ -165,9 +168,19 @@ $menu-label-color: $white-ter
     background-size: 121%
     background-attachment: fixed
 
+  .about-page-img
+    height: 596px
+
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
+
+  .about-page-img
+    height: 596px  
+
++touch
+  .about-page-img
+    background-size: cover 
 
 +mobile
   .blog-list-item header

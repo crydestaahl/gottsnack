@@ -12,16 +12,16 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
   return (
     <div>
       <div
-        className="full-width-image-container margin-top-0 about-height"
+        className="full-width-image-container margin-top-0 about-page-img"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`          
         }}
       >
-        <div
+        <div // This shit is hidden. Saved for future use.
           style={{
-            display: "flex",
+            display: "none", // Change to flex if you wanna show title
             height: "150px",
             lineHeight: "1",
             justifyContent: "space-around",
@@ -37,7 +37,7 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
                    backgroundColor: "rgb(243,142,34)",
               color: "white",
               lineHeight: "1",
-              padding: "0.25em",              
+              padding: "0.25em",                          
             }}
           >
             {title}
@@ -112,7 +112,7 @@ export const aboutPageQuery = graphql`
                title
                image {
                  childImageSharp {
-                   fluid(maxWidth: 900, maxHeight: 500, quality: 100) {
+                   fluid(maxWidth: 900, maxHeight: 596, quality: 100) {
                      ...GatsbyImageSharpFluid
                    }
                  }
