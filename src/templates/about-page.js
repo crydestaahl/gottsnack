@@ -54,11 +54,13 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
                 Vilka är vi? 
               </h3>
               <StaffRoll />
+              {/*} Saved for future use... 
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/staff">
                   Read more
                 </Link>
               </div>
+              */}
             </div>
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {title}
