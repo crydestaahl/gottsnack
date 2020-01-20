@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/gott-snack2.png'
+import Headroom from 'react-headroom'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -33,10 +34,12 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
+      <Headroom>
       <nav
-        className="navbar is-transparent"
+        className="navbar is-white has-shadow is-transparent"
         role="navigation"
         aria-label="main-navigation"
+        id="navbar"
       >
         <div className="container">
           <div className="navbar-brand">
@@ -99,6 +102,7 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
+      </Headroom>
     );
   }
 }
