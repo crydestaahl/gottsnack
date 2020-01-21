@@ -53,7 +53,7 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
               <h3 className="has-text-weight-semibold is-size-2">
                 Vilka är vi? 
               </h3>
-              <StaffRoll />
+              <StaffRoll style={{marginTop: '2em'}}/>
               {/*} Saved for future use... 
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/staff">
@@ -62,7 +62,10 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
               </div>
               */}
             </div>
-                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                <h2 
+                className="title is-size-3 has-text-weight-bold is-bold-light"
+                style={{marginTop: '2em'}}
+                >
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />

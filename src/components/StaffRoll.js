@@ -14,7 +14,7 @@ class StaffRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`staff-card blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -37,16 +37,21 @@ class StaffRoll extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
+                    {/*} Saved for future use ... 
                     <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
+                     {post.frontmatter.date}
                     </span>
+                      */}
                   </p>
                 </header>
                 <p>
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button" 
+                  to={post.fields.slug}
+                  style={{ display: 'none' }} //remove to show. Saved for future use. 
+                  >
                     Keep Reading →
                   </Link>
                 </p>
