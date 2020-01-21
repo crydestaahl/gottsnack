@@ -15,6 +15,9 @@ const TagsPage = ({
   <Layout>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
+      <meta name="theme-color" content="#f38e22" />
+      <meta name="msapplication-navbutton-color" content="#f38e22"/>
+      <meta name="apple-mobile-web-app-status-bar-style" content="#f38e22"/>
       <div className="container content">
         <div className="columns">
           <div
