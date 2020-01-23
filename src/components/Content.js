@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Zoom from 'react-reveal/Zoom' // Fade and cascade effect
 
 export const HTMLContent = ({ content, className }) => (
-  <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
+  <Zoom cascade><div className={className} dangerouslySetInnerHTML={{ __html: content }} /></Zoom>
 )
 
 const Content = ({ content, className }) => (

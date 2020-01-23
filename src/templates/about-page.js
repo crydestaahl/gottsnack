@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Features from '../components/Features'
 import StaffRoll from '../components/StaffRoll'
+import Zoom from 'react-reveal/Zoom' // Fade and cascade effect
 
 export const AboutPageTemplate = ({ image, title, content, contentComponent, intro }) => {
   const PageContent = contentComponent || Content
@@ -50,10 +51,12 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
             <div className="column is-10 is-offset-1">
               <div className="section">
               <div className="column is-12">
-              <h3 className="has-text-weight-semibold is-size-2">
-                Vilka är vi? 
-              </h3>
-              <StaffRoll style={{marginTop: '2em'}}/>
+              <Zoom cascade>
+                <h3 className="has-text-weight-semibold is-size-2">
+                  Vilka är vi? 
+                </h3>
+                <StaffRoll style={{marginTop: '2em'}}/>
+              </Zoom>
               {/*} Saved for future use... 
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/staff">
@@ -61,21 +64,20 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
                 </Link>
               </div>
               */}
-            </div>
-                <h2 
-                className="title is-size-3 has-text-weight-bold is-bold-light"
-                style={{marginTop: '2em'}}
-                >
-                  {title}
-                </h2>
-                <PageContent className="content" content={content} />
+              </div>
+                   <Zoom cascade>  
+                    <h2 
+                    className="title is-size-3 has-text-weight-bold is-bold-light"
+                    style={{marginTop: '2em'}}
+                     >
+                      {title}
+                     </h2>
+                     </Zoom>  
+                     <PageContent className="content" content={content} />
+                  </div>
+                </div>
               </div>
             </div>
-            
-          </div>
-          
-      
-        </div>
       </section>
     </div>
   );

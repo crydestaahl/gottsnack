@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import Zoom from 'react-reveal/Zoom' // Fade and cascade effect
 
 class StaffRoll extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class StaffRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
+          <Zoom cascade> 
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`staff-card blog-list-item tile is-child box notification ${
@@ -57,6 +59,7 @@ class StaffRoll extends React.Component {
                 </p>
               </article>
             </div>
+          </Zoom>
           ))}
       </div>
     )

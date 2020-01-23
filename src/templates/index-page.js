@@ -1,10 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import Zoom from 'react-reveal/Zoom' // Fade and cascade effect
+
+
+// Saved these components for future use
+// import Features from '../components/Features' 
+// import BlogRoll from '../components/BlogRoll'
+
 
 export const IndexPageTemplate = ({
          image,
@@ -16,6 +20,7 @@ export const IndexPageTemplate = ({
          intro
        }) => (
          <div>
+         <Zoom cascade>
            <div
              className="full-width-image margin-top-0"
              style={{
@@ -68,11 +73,12 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
               </div>
-             </div>             
-           </div>
+             </div> 
+             </div>
+           </Zoom>            
            <div className="container">
            <iframe src="https://mixlr.com/users/7034928/embed?color=f38e00&autoplay=true" width="100%" height="180px" scrolling="no" frameborder="no" marginheight="0" marginwidth="0"></iframe><small><a href="http://mixlr.com/gott-snack" style={{color:'#1a1a1a', textAlign:'left', fontFamily:'Helvetica, sans-serif', fontSize:'11px' }}></a></small>
-           </div>
+           </div>          
            <section className="section section--gradient">
              <div className="container">
                <div className="section">
@@ -80,20 +86,26 @@ export const IndexPageTemplate = ({
                    <div className="column is-10 is-offset-1">
                      <div className="content">
                        <div className="content">
+                       <Zoom cascade> 
                          <div className="tile">
                            <h1 className="title">{mainpitch.title}</h1>
                          </div>
-                         <div className="tile">
-                           <h3 className="subtitle">{mainpitch.description}</h3>
-                         </div>
+                         </Zoom>  
+                         <Zoom cascade> 
+                          <div className="tile">
+                            <h3 className="subtitle">{mainpitch.description}</h3>
+                          </div>
+                         </Zoom> 
                        </div>
                        <div className="columns">
+                       <Zoom cascade> 
                          <div className="column is-12">
                            <h3 className="has-text-weight-semibold is-size-3">
                              {heading}
                            </h3>
                            <p>{description}</p>
                          </div>
+                        </Zoom> 
                        </div>
                        <div className="container">
                        <div className="section section1">
@@ -128,6 +140,7 @@ export const IndexPageTemplate = ({
                </div>
              </div>
            </section>
+          
          </div>
        );
 
