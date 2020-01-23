@@ -13,7 +13,7 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
   return (
     <div>
       <div
-        className="full-width-image-container margin-top-0 about-page-img"
+        className="full-width-image-container margin-top-0 about-page-img fade-in"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -64,16 +64,14 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
                 </Link>
               </div>
               */}
-              </div>
-                   <Zoom cascade>  
-                    <h2 
-                    className="title is-size-3 has-text-weight-bold is-bold-light"
-                    style={{marginTop: '2em'}}
-                     >
-                      {title}
-                     </h2>
-                     </Zoom>  
-                     <PageContent className="content" content={content} />
+              </div>                  
+                  <h2 
+                  className="title is-size-3 has-text-weight-bold is-bold-light"
+                  style={{marginTop: '2em'}}
+                    >
+                    {title}
+                    </h2>                    
+                    <PageContent className="content" content={content} />
                   </div>
                 </div>
               </div>

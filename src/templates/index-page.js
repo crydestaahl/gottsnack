@@ -32,6 +32,7 @@ export const IndexPageTemplate = ({
              }}
            >
              <div
+               className="fade-in"
                style={{
                  display: "flex",
                  height: "150px",
@@ -86,26 +87,25 @@ export const IndexPageTemplate = ({
                    <div className="column is-10 is-offset-1">
                      <div className="content">
                        <div className="content">
-                       <Zoom cascade> 
-                         <div className="tile">
+                      
+                         <div className="tile fade-in">
                            <h1 className="title">{mainpitch.title}</h1>
                          </div>
-                         </Zoom>  
-                         <Zoom cascade> 
+                           
+
                           <div className="tile">
                             <h3 className="subtitle">{mainpitch.description}</h3>
                           </div>
-                         </Zoom> 
+ 
                        </div>
                        <div className="columns">
-                       <Zoom cascade> 
+              
                          <div className="column is-12">
                            <h3 className="has-text-weight-semibold is-size-3">
                              {heading}
                            </h3>
                            <p>{description}</p>
                          </div>
-                        </Zoom> 
                        </div>
                        <div className="container">
                        <div className="section section1">

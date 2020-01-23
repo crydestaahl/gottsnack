@@ -15,6 +15,11 @@ $black: #2b2523
 $section-padding: 1rem 1.5rem  
 $section-padding-medium: 3rem 1.5rem
 
+@keyframes fadeIn 
+  from { opacity: 0 }
+  to { opacity: 1 }
+
+
 //.navbar .navbar-menu
 //  box-shadow:none !important
 
@@ -65,6 +70,7 @@ $section-padding-medium: 3rem 1.5rem
   display: flex
   justify-content: center
   align-items: center
+  animation: fadeIn 2.5s
 
 .about-page-img
   height: 209px;
@@ -106,6 +112,9 @@ $section-padding-medium: 3rem 1.5rem
 
 .navbar-item:hover 
   color: $primary !important
+
+.fade-in
+  animation: fadeIn 2s 
 
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
