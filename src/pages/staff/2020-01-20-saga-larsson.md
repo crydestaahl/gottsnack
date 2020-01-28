@@ -8,5 +8,4 @@ featuredimage: /img/sagah-bw.jpg
 tags:
   - .
 ---
-![sagah bw](/img/sagah-bw.jpg)
-EN TJEJ.
+![sagah bw](/img/sagah-bw.jpg) En tjej.
