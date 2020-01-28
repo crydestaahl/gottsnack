@@ -8,5 +8,4 @@ featuredimage: /img/gunilla-bw.jpg
 tags:
   - .
 ---
-![gunilla bw](/img/gunilla-bw.jpg)
-NORRA EUROPAS MEST ÄLSKVÄRDA TANT OCH MOR TILL FREDRIK. ERFAREN RADIOPRATARE OCH SKOLPEDAGOG.
+![gunilla bw](/img/gunilla-bw.jpg) Mor till Fredrik och frekvent kåsör.
