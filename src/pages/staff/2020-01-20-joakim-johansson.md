@@ -8,5 +8,4 @@ featuredimage: /img/joakim-bw.jpg
 tags:
   - .
 ---
-![joakim bw](/img/joakim-bw.jpg)
-ÄLSKVÄRD VIKARIE.
+![joakim bw](/img/joakim-bw.jpg)Researcher och vikarie.
