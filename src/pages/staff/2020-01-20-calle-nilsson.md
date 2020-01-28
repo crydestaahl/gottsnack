@@ -9,4 +9,7 @@ tags:
   - .
 ---
 ![calle bw](/img/gunilla-bw.jpg)
-SMÅLÄNNING, VÄRLDENS MEST ÄLSKADE LJUDTEKNIKER OCH EN OERHÖRT VIKTIGT KUGGE I DETTA MASKINERI.
+
+![]()
+
+Sveriges kanske enda trevliga ljudtekniker.
