@@ -8,5 +8,4 @@ featuredimage: /img/casper-bw.jpg
 tags:
   - .
 ---
-![casper bw](/img/casper-bw.jpg)
-FINANSIELL RÅDGIVARE.
+![casper bw](/img/casper-bw.jpg)Finansiell rådgivare.
