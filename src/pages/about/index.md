@@ -13,4 +13,4 @@ Min ödmjuka förhoppning är att Gott snack ska vara ett roligt och allvarligt 
 
 **Varför behövs Gott snack?** 
 
-Vi tror att människor som inte passar in i public service eller dom kommersiella kanalernas likriktade mallar också behöver höras i etern. Diagnos, sexualitet, kön, ursprung, religös åskådning, socioekonomisk bakgrund, ålder, politisk hemvist är ovidkommande. Jag är ute efter en oväntad och spännande MIX av människor från alla samhällsskikt.
+Vi tror att människor som inte passar in i public service eller dom kommersiella kanalernas likriktade mallar också behöver höras i etern. Diagnos, sexualitet, etnicitet, kön, ursprung, religös åskådning, socioekonomisk bakgrund, ålder eller politisk hemvist är ovidkommande. Jag är ute efter en oväntad och spännande MIX av människor från alla samhällsskikt.
