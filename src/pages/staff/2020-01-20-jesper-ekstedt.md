@@ -9,5 +9,4 @@ tags:
   - radio
   - founder
 ---
-![jesper bw](/img/jesper-bw.jpg)
-JURISTSTUDENT MED ETT BEGYNNANDE (SKENANDE) SPELMISSBRUK OCH BIG LEBOWSKI-LIVSSTIL.
+![jesper bw](/img/jesper-bw.jpg) Juriststudent och  rankad på plats 334 i Sverige på bowling. Förkärlek för onlinecasino och redbull original.
