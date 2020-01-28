@@ -6,8 +6,7 @@ description: 'Manusförfattare, p3-profil och massa mer.'
 featuredpost: false
 featuredimage: /img/alex-bw.jpg
 tags:
-  - radio
-  - founder
+  - ''
 ---
 ![alex bw](/img/alex-bw.jpg)
 
