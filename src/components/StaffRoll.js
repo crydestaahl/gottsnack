@@ -16,9 +16,7 @@ class StaffRoll extends React.Component {
           <Zoom cascade> 
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`staff-card blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                className={`staff-card blog-list-item tile is-child box notification`}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
