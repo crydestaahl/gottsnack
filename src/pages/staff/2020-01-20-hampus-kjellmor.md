@@ -8,5 +8,4 @@ featuredimage: /img/hampus-bw.jpg
 tags:
   - .
 ---
-![hampus bw](/img/hampus-bw.jpg)
-GÄSTBOKARE OCH MEDLEM I REDAKTIONEN.
+![hampus bw](/img/hampus-bw.jpg) Gästbokare och ansvarig för live-poddar.
