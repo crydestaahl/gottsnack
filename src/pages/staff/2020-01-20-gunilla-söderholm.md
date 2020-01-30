@@ -8,4 +8,6 @@ featuredimage: /img/max-bw.jpg
 tags:
   - ''
 ---
-![max bw](/img/gunilla-bw.jpg) Bror till Fredrik och basist i Division 7.
+![](/img/max-bw.jpg)
+
+Bror till Fredrik och basist i Division 7.
