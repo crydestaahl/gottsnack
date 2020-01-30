@@ -8,7 +8,7 @@ featuredimage: /img/calle-bw.jpg
 tags:
   - ''
 ---
-![calle bw](/img/gunilla-bw.jpg)
+![calle bw](/img/calle-bw.jpg)
 
 ![]()
 
