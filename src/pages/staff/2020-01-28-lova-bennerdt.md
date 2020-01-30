@@ -8,4 +8,6 @@ featuredimage: /img/skärmavbild-2020-01-28-kl.-18.02.52.png
 tags:
   - ''
 ---
+![](/img/skärmavbild-2020-01-28-kl.-18.02.52.png)
+
 Praktikant.
