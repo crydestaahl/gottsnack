@@ -6,7 +6,7 @@ description: ' '
 featuredpost: true
 featuredimage: /img/84278064_600692743826807_1067498513509646336_n.jpg
 tags:
-  - ''
+  - '#null'
 ---
 ![](/img/84278064_600692743826807_1067498513509646336_n.jpg)
 
