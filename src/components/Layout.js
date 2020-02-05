@@ -39,7 +39,7 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
         <meta name="theme-color" content="#f38e22" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#f38e22" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
