@@ -40,6 +40,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
         id="navbar"
+        style={{ overflowX: 'hidden' }}
       >
         <div className="container">
           <div className="navbar-brand">

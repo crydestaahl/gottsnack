@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({
          description,
          intro
        }) => (
-         <div>
+         <div style={{ overflowX: 'hidden' }}>
          <Zoom cascade>
            <div
              className="full-width-image margin-top-0"

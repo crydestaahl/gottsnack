@@ -11,7 +11,7 @@ export const AboutPageTemplate = ({ image, title, content, contentComponent, int
   const PageContent = contentComponent || Content
 
   return (
-    <div>
+    <div style={{ overflowX: 'hidden' }}>
       <div
         className="full-width-image-container margin-top-0 about-page-img fade-in"
         style={{
