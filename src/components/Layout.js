@@ -38,7 +38,8 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#f38e22" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#f38e22" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
@@ -49,7 +50,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div style={{ overflowX: 'hidden' }}>{children}</div>
       <Footer />
     </div>
   )
