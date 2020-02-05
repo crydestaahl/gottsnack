@@ -35,7 +35,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <a className="navbar-item" href="https://pod.space/gottsnack">
+                      <a className="navbar-item" href="https://www.radioplay.se/podcast/gott-snack?episode-id=64572&fbclid=IwAR2_vbOp3N3mDW9ZU2vxCOTeYRB9dHb3mCOcdwvQQfHjKyJHBzYu0tXQstU" target="_blank">
                         Poddar
                       </a>
                     </li>
