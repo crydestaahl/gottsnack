@@ -2,7 +2,7 @@
 templateKey: staff-post
 title: 'Tora Rydelius '
 date: 2020-03-29T16:44:53.715Z
-description: ' '
+description: 'Medverkar vanligtvis fredagar. '
 featuredpost: true
 featuredimage: /img/tora-svartvit.jpg
 tags:
