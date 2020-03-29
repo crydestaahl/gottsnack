@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: 'Vad vi hoppas på '
-image: /img/soffan_beskuren-svart.png
+image: /img/beskuren-svartvit-soffa2.jpg
 ---
 **Bakgrund**
 
