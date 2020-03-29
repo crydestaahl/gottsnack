@@ -4,10 +4,10 @@ title: Max Söderholm
 date: 2020-01-20T19:26:36.655Z
 description: ' '
 featuredpost: false
-featuredimage: /img/max-bw.jpg
+featuredimage: /img/max-svart.jpg
 tags:
   - ''
 ---
-![](/img/max-bw.jpg)
+![](/img/max-svart.jpg)
 
 Bror till Fredrik och basist i Division 7.
