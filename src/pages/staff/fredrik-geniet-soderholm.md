@@ -10,4 +10,4 @@ tags:
 ---
 ![fredrik bw](/img/fredrik-svart.jpg)
 
-En kille.
+ Grundare av och programledare för Gott snack.
