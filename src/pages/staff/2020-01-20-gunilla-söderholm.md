@@ -2,7 +2,7 @@
 templateKey: staff-post
 title: Max Söderholm
 date: 2020-01-20T19:26:36.655Z
-description: ' Jingelking med dåliga knän.'
+description: ' '
 featuredpost: false
 featuredimage: /img/max-svart.jpg
 tags:
@@ -10,4 +10,4 @@ tags:
 ---
 ![](/img/max-svart.jpg)
 
-Bror till Fredrik och basist i Division 7.
+Jingelking tillika basist i Division 7 och bror till Fredrik med dåliga knän.
