@@ -2,7 +2,7 @@
 templateKey: staff-post
 title: Max Söderholm
 date: 2020-01-20T19:26:36.655Z
-description: ' '
+description: ' Jingelking med dåliga knän.'
 featuredpost: false
 featuredimage: /img/max-svart.jpg
 tags:
