@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: 'Vad vi hoppas på '
-image: /img/soffan3.jpg
+image: /img/skärmavbild-2020-03-29-kl.-19.08.40.png
 ---
 **Bakgrund**
 
