@@ -1,13 +1,13 @@
 ---
 templateKey: staff-post
-title: Lova Bennerdt
+title: 'Beata Nelsson '
 date: 2020-01-28T16:44:29.876Z
 description: ' '
 featuredpost: true
-featuredimage: /img/skärmavbild-2020-01-28-kl.-18.02.52.png
+featuredimage: /img/beata-svart.jpg
 tags:
   - ''
 ---
-![](/img/skärmavbild-2020-01-28-kl.-18.02.52.png)
+![](/img/beata-svart.jpg)
 
-Praktikant.
+Konstnär och relations-expert.
