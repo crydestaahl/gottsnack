@@ -10,4 +10,4 @@ tags:
 ---
 ![](/img/mamma-svart.jpg)
 
- Mor till Fredrik och frekvent kåsör.
+ Mor till Max och Fredrik samt relativt frekvent kåsör.
