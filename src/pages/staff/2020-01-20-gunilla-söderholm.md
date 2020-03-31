@@ -10,4 +10,4 @@ tags:
 ---
 ![](/img/max-svart.jpg)
 
-Jingelking tillika basist i Division 7 och bror till Fredrik med dåliga knän.
+Jingelking tillika basist i Division 7 och bror till Fredrik.
