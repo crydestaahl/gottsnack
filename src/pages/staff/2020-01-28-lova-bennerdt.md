@@ -10,4 +10,4 @@ tags:
 ---
 ![](/img/beata-svart.jpg)
 
-Konstnär och relations-expert.
+Konstnär och hobby-psykolog.
