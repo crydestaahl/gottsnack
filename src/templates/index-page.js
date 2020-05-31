@@ -120,6 +120,18 @@ export const IndexPageTemplate = ({
                          </div>                        
                        </div>
                      </div>
+                     <div className="container">
+                       <div className="section section1">
+                         <div className="column is-12 has-text-centered">
+                           <a
+                             href="https://www.podstore.se/podstore/gott-snack/"
+                             target="_blank"
+                           >
+                             <img src="https://gottsnack.nu/static/img/gott-snack-merch-banner.png" alt="Köp vår merch här!">
+                           </a>
+                         </div>                        
+                       </div>
+                     </div>
                        {/*}                
                        <Features gridItems={intro.blurbs} />
                        <div className="column is-12">
