@@ -4,6 +4,7 @@ title: Oberoende radio
 image: /img/gottsnack3-desktop2.jpg
 bannerImage: /img/gott-snack-merch-banner.png
 heading: Live vardagar 07-09
+todays_guest: Live vardagar 07-09
 subheading: Live vardagar 07-09
 mainpitch:
   title: Välkommen in i värmen
@@ -65,5 +66,6 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+bannerImage: /img/gott-snack-merch-banner.png
 ---
 
