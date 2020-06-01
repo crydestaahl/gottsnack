@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import Img from "gatsby-image"
 import Layout from '../components/Layout'
 import Zoom from 'react-reveal/Zoom' // Fade and cascade effect
 
@@ -12,6 +13,7 @@ import Zoom from 'react-reveal/Zoom' // Fade and cascade effect
 
 export const IndexPageTemplate = ({
          image,
+         bannerImage,
          title,
          heading,
          subheading,
@@ -127,7 +129,7 @@ export const IndexPageTemplate = ({
                              href="https://www.podstore.se/podstore/gott-snack/"
                              target="_blank"
                            >
-                             <img src="https://gottsnack.nu/static/img/gott-snack-merch-banner.png" alt="Köp vår merch här!" />
+                            <Img fluid={bannerImage.childImageSharp.fluid} />
                            </a>
                          </div>                        
                        </div>
@@ -158,6 +160,7 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  bannerImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -206,6 +209,13 @@ export const pageQuery = graphql`
           childImageSharp {           
             fixed(width: 1075, height: 800, quality: 100) {
               ...GatsbyImageSharpFixed
+            }
+          }
+        }
+        bannerImage {
+          childImageSharp {           
+            fluid(fit: COVER) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

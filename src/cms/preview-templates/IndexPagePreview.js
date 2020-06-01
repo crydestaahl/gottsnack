@@ -9,6 +9,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
     return (
       <IndexPageTemplate
         image={data.image}
+        bannerImage={data.bannerImage}
         title={data.title}
         heading={data.heading}
         heading={data.todays_guest}
@@ -16,7 +17,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         description={data.description}
         intro={data.intro || { blurbs: [] }}
         mainpitch={data.mainpitch || {}}
-        bannerImage={data.bannerImage}
+    
       />
     )
   } else {

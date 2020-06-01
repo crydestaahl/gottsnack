@@ -66,6 +66,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-bannerImage: /img/gott-snack-merch-banner.png
 ---
 
