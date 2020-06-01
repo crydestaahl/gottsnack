@@ -127,7 +127,7 @@ export const IndexPageTemplate = ({
                              href="https://www.podstore.se/podstore/gott-snack/"
                              target="_blank"
                            >
-                             <img src="https://gottsnack.nu/static/img/gott-snack-merch-banner.png" alt="Köp vår merch här!">
+                             <img src="https://gottsnack.nu/static/img/gott-snack-merch-banner.png" alt="Köp vår merch här!" />
                            </a>
                          </div>                        
                        </div>
