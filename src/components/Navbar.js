@@ -68,7 +68,7 @@ const Navbar = class extends React.Component {
               </Link>
               <a
                 className="navbar-item"
-                href="https://www.radioplay.se/podcast/gott-snack?episode-id=64572&fbclid=IwAR2_vbOp3N3mDW9ZU2vxCOTeYRB9dHb3mCOcdwvQQfHjKyJHBzYu0tXQstU" target="_blank"
+                href="https://play.acast.com/s/gott-snack-med-fredrik-soderholm/" target="_blank"
               >
                 Poddar
               </a>
