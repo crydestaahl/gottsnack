@@ -9,7 +9,7 @@ Jag (Fredrik Söderholm) kände att jag ville göra morgonradio på mitt sätt. 
 
 **Ambition** 
 
-Min ödmjuka förhoppning är att Gott snack ska vara ett roligt och allvarligt program som rymmer både hjärndött trams och journalistiska ambitioner. En plattform där människor som inte alltid har en röst ibland kan få en röst. Ett tryggt rum och i bästa fall en plantskola för unga (och gamla) hungriga, lovande, roliga, misfits och udda kantstötta fåglar. Freaks and Geeks and men också famous peeps. Kändisar vill vi  ha med för att det piggar upp men ambitionen är bredda programmet med många fler spännande vanlisar. Tipsa oss gärna om du känner till folk du tycker förtjänar lite uppmärksamhet. 
+Min ödmjuka förhoppning är att Gott snack ska vara ett roligt och allvarligt program som rymmer både hjärndött trams och journalistiska ambitioner. Jag vill lyssna på människor som tänker exakt som jag och människor som tycker helt annorlunda än mig själv. Jag vill försöka förstå och undersöka. Inte undervisa och eller tillrättavisa. Jag vill bygga en plattform där människor som inte alltid har en röst ibland kan få en röst. Ett tryggt rum och i bästa fall en plantskola för unga (och gamla) hungriga, lovande, roliga, misfits och udda kantstötta fåglar. Freaks and Geeks and men också famous peeps. Kändisar vill vi ha med för att det piggar upp men ambitionen är bredda programmet med många fler spännande vanlisar. Tipsa oss gärna om du känner till folk du tycker förtjänar lite uppmärksamhet. 
 
 **Varför behövs Gott snack?** 
 
