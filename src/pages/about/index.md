@@ -17,4 +17,4 @@ Vi tror att människor som inte passar in i public service eller dom kommersiell
 
 **Finansering** 
 
-Vi är inga säljare och föredrar att lägga energi på roligt innehåll framför att jaga sponsorer. Vi kan åtnjuta privilegiet att vara helt oberoende och prata om exakt vad vi vill. Men för att kunna vara så frispråkiga och svårsponsrade är vi beroende av lyssnarnas bidrag. Vi finansieras av våra patrons som skänker allt från $1 - $100 / månaden. Du som vill stödja vår verksamhet gör det bäst genom att bli Patron på www.patreon.com/gottsnack.
+Vi finansieras av våra patrons som skänker allt från $1 - $100 / månaden. Du som vill stödja vår verksamhet gör det bäst genom att bli Patron på www.patreon.com/gottsnack. Vi är även öppna för att jobba med sponsorer. Hör av er via kontaktformuläret under fliken kontakt.
