@@ -1,6 +1,6 @@
 ---
 templateKey: staff-post
-title: 'Angelia Mulenga '
+title: 'Angelica Mulenga '
 date: 2021-01-11T09:21:42.549Z
 description: 'Säljchef. '
 featuredpost: true
