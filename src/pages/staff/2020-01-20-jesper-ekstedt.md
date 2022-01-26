@@ -2,7 +2,7 @@
 templateKey: staff-post
 title: Jesper Ekstedt
 date: 2020-01-20T19:25:06.987Z
-description: Medverkar alla dagar utom onsdagar.
+description: Stående sidekick
 featuredpost: false
 featuredimage: /img/jesper-svart.jpg
 tags:
