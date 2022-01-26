@@ -7,7 +7,7 @@ heading: Live vardagar 08-10
 todays_guest: Live vardagar 08-10
 subheading: Live vardagar 08-10
 mainpitch:
-  title: Välkommen in i värmen
+  title: Välkommen in i värmen!
   description: |
     Direkt från stockholm, rakt ut i rymden. 
 description: >-
