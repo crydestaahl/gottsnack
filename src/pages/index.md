@@ -3,9 +3,9 @@ templateKey: index-page
 title: Oberoende radio
 image: /img/gottsnack3-desktop2.jpg
 bannerImage: /img/gott-snack-merch-banner.png
-heading: Live vardagar 07-09
-todays_guest: Live vardagar 07-09
-subheading: Live vardagar 07-09
+heading: Live vardagar 08-10
+todays_guest: Live vardagar 08-10
+subheading: Live vardagar 08-10
 mainpitch:
   title: Välkommen in i värmen
   description: |
